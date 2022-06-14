@@ -1,1 +1,102 @@
-#
+/*------*/
+:root {
+	--text-color: #000000;
+	--main-color: #323232;
+	--background-color: #b3b3b3;
+	--color: white;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: var(--color);
+}
+
+body {
+	background-color: var(--background-color);
+}
+
+.content {
+	margin: 0px auto;
+	max-width: 850px;
+	background-color: var(--main-color);
+}
+
+.header_navigation {
+	background-color: var(--background-color);
+	color: var(--color);
+	padding: 35px 0px;
+
+}
+
+nav a {
+	padding: 40px 35px;
+}
+
+.title {
+	display: flex;
+	height: 200px;
+	font-size: 10px;
+
+}
+
+.title_name {
+	flex-grow: 1;
+	align-self: center;
+	text-align: center;
+	background-color: #746167;
+	width: 80%;
+	height: 100%;
+}
+
+.title_name h1 {
+	font-family: 'TP Serif Caption', serif;
+	font-size: 35px;
+}
+
+.title_image {
+	display: flex;
+	width: 175px;
+	height: 100%;
+}
+
+h3 {
+	font-family: 'PT Serif Caption', serif;
+	letter-spacing: 6px;
+}
+
+.code-example pre {
+	padding: 30px 0px 15px;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.content-wrapper {
+	display: flex;
+}
+
+.content-info {
+	width: 70%;
+	padding: 35px;
+}
+
+.content-contact {
+	width: 30%;
+	line-height: 30px;
+}
+
+.content-contact h3 {
+	text-align: center;
+}
+
+.content-contact nav {
+	font-size: 13px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+	background-color: #000000;
+}
